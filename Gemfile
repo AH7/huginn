@@ -9,7 +9,7 @@ end
 
 gem 'bundler', '>= 1.5.0'
 
-gem 'protected_attributes', '~>1.0.7'
+gem 'protected_attributes', '~> 1.0.7'
 
 gem 'rails', '4.1.0'
 
@@ -25,7 +25,7 @@ end
 gem 'mysql2', '~> 0.3.15'
 gem 'devise', '~> 3.2.4'
 gem 'kaminari', '~> 0.15.1'
-gem 'bootstrap-kaminari-views', '~> 0.0.2'
+gem 'bootstrap-kaminari-views', '~> 0.0.3'
 gem 'rufus-scheduler', '~> 3.0.7', require: false
 gem 'json', '~> 1.8.1'
 gem 'jsonpath', '~> 0.5.3'
@@ -33,8 +33,8 @@ gem 'twilio-ruby', '~> 3.11.5'
 gem 'ruby-growl', '~> 4.1.0'
 gem 'liquid', '~> 2.6.1'
 
-gem 'delayed_job', '~> 4.0.0'
-gem 'delayed_job_active_record', '~> 4.0.0'
+gem 'delayed_job', '~> 4.0.1'
+gem 'delayed_job_active_record', '~> 4.0.1'
 gem 'daemons', '~> 1.1.9'
 
 # To enable DelayedJobWeb, see the 'Enable DelayedJobWeb' section of the README.
@@ -42,8 +42,8 @@ gem 'daemons', '~> 1.1.9'
 
 gem 'foreman', '~> 0.63.0'
 
-gem 'sass-rails',   '~> 4.0.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 4.0.3'
+gem 'coffee-rails', '~> 4.0.1'
 gem 'uglifier', '>= 1.3.0'
 gem 'select2-rails', '~> 3.5.4'
 gem 'jquery-rails', '~> 3.1.0'
@@ -84,9 +84,9 @@ end
 group :development, :test do
   gem 'dotenv-rails'
   gem 'pry'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 2.14.2'
   gem 'rspec'
-  gem 'shoulda-matchers'
+  gem 'shoulda-matchers', '>= 2.6.0'
   gem 'rr'
   gem 'delorean'
   gem 'webmock', require: false
