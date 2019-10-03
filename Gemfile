@@ -23,7 +23,7 @@ else
 end
 
 gem 'mysql2', '~> 0.3.15'
-gem 'devise', '~> 3.2.4'
+gem 'devise', '~> 4.7.1'
 gem 'kaminari', '~> 0.15.1'
 gem 'bootstrap-kaminari-views', '~> 0.0.2'
 gem 'rufus-scheduler', '~> 3.0.7', require: false
