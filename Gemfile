@@ -24,8 +24,8 @@ end
 
 gem 'mysql2', '~> 0.3.15'
 gem 'devise', '~> 3.2.4'
-gem 'kaminari', '~> 0.15.1'
-gem 'bootstrap-kaminari-views', '~> 0.0.2'
+gem 'kaminari', '~> 1.2.1'
+gem 'bootstrap-kaminari-views', '~> 0.0.3'
 gem 'rufus-scheduler', '~> 3.0.7', require: false
 gem 'json', '~> 1.8.1'
 gem 'jsonpath', '~> 0.5.3'
@@ -66,7 +66,7 @@ gem 'rturk', '~> 2.12.1'
 
 gem 'twitter', '~> 5.8.0'
 gem 'twitter-stream', github: 'cantino/twitter-stream', branch: 'master'
-gem 'em-http-request', '~> 1.1.2'
+gem 'em-http-request', '~> 1.1.6'
 gem 'weibo_2', '~> 0.1.4'
 gem 'hipchat', '~> 1.1.0'
 gem 'xmpp4r',  '~> 0.5.6'
