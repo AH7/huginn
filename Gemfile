@@ -66,7 +66,7 @@ gem 'rturk', '~> 2.12.1'
 
 gem 'twitter', '~> 5.8.0'
 gem 'twitter-stream', github: 'cantino/twitter-stream', branch: 'master'
-gem 'em-http-request', '~> 1.1.2'
+gem 'em-http-request', '~> 1.1.6'
 gem 'weibo_2', '~> 0.1.4'
 gem 'hipchat', '~> 1.1.0'
 gem 'xmpp4r',  '~> 0.5.6'
