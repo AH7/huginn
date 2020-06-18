@@ -11,7 +11,7 @@ gem 'bundler', '>= 1.5.0'
 
 gem 'protected_attributes', '~>1.0.7'
 
-gem 'rails', '4.1.0'
+gem 'rails', '5.0.0'
 
 case RUBY_PLATFORM
 when /freebsd/
@@ -23,9 +23,9 @@ else
 end
 
 gem 'mysql2', '~> 0.3.15'
-gem 'devise', '~> 3.2.4'
+gem 'devise', '~> 4.0.0'
 gem 'kaminari', '~> 0.15.1'
-gem 'bootstrap-kaminari-views', '~> 0.0.2'
+gem 'bootstrap-kaminari-views', '~> 0.0.3'
 gem 'rufus-scheduler', '~> 3.0.7', require: false
 gem 'json', '~> 1.8.1'
 gem 'jsonpath', '~> 0.5.3'
@@ -42,11 +42,11 @@ gem 'daemons', '~> 1.1.9'
 
 gem 'foreman', '~> 0.63.0'
 
-gem 'sass-rails',   '~> 4.0.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 5.0.5'
+gem 'coffee-rails', '~> 4.1.1'
 gem 'uglifier', '>= 1.3.0'
 gem 'select2-rails', '~> 3.5.4'
-gem 'jquery-rails', '~> 3.1.0'
+gem 'jquery-rails', '~> 4.4.0'
 gem 'ace-rails-ap', '~> 2.0.1'
 
 # geokit-rails doesn't work with geokit 1.8.X but it specifies ~> 1.5
@@ -84,7 +84,7 @@ end
 group :development, :test do
   gem 'dotenv-rails'
   gem 'pry'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 2.14.2'
   gem 'rspec'
   gem 'shoulda-matchers'
   gem 'rr'
@@ -95,5 +95,5 @@ end
 
 group :production do
   gem 'dotenv-deployment'
-  gem 'rack'
+  gem 'rack', '>= 2.1.4'
 end
