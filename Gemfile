@@ -11,7 +11,7 @@ gem 'bundler', '>= 1.5.0'
 
 gem 'protected_attributes', '~>1.0.7'
 
-gem 'rails', '4.1.0'
+gem 'rails', '6.0.3.5'
 
 case RUBY_PLATFORM
 when /freebsd/
@@ -25,7 +25,7 @@ end
 gem 'mysql2', '~> 0.3.15'
 gem 'devise', '~> 3.2.4'
 gem 'kaminari', '~> 0.15.1'
-gem 'bootstrap-kaminari-views', '~> 0.0.2'
+gem 'bootstrap-kaminari-views', '~> 0.0.3'
 gem 'rufus-scheduler', '~> 3.0.7', require: false
 gem 'json', '~> 1.8.1'
 gem 'jsonpath', '~> 0.5.3'
