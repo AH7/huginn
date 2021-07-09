@@ -89,7 +89,7 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'rr'
   gem 'delorean'
-  gem 'webmock', require: false
+  gem 'webmock', '>= 1.17.4', require: false
   gem 'coveralls', require: false
 end
 
