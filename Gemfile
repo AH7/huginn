@@ -58,7 +58,7 @@ gem 'kramdown', '~> 1.3.3'
 gem 'faraday', '~> 0.9.0'
 gem 'faraday_middleware'
 gem 'typhoeus', '~> 0.6.3'
-gem 'nokogiri', '~> 1.6.1'
+gem 'nokogiri', '~> 1.8.2'
 
 gem 'wunderground', '~> 1.2.0'
 gem 'forecast_io', '~> 2.0.0'
@@ -78,7 +78,7 @@ gem 'mqtt'
 
 group :development do
   gem 'binding_of_caller'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
 end
 
 group :development, :test do
