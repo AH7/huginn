@@ -11,7 +11,7 @@ gem 'bundler', '>= 1.5.0'
 
 gem 'protected_attributes', '~>1.0.7'
 
-gem 'rails', '4.1.0'
+gem 'rails', '5.2.8.1'
 
 case RUBY_PLATFORM
 when /freebsd/
@@ -25,7 +25,7 @@ end
 gem 'mysql2', '~> 0.3.15'
 gem 'devise', '~> 3.2.4'
 gem 'kaminari', '~> 0.15.1'
-gem 'bootstrap-kaminari-views', '~> 0.0.2'
+gem 'bootstrap-kaminari-views', '~> 0.0.3'
 gem 'rufus-scheduler', '~> 3.0.7', require: false
 gem 'json', '~> 1.8.1'
 gem 'jsonpath', '~> 0.5.3'
@@ -34,7 +34,7 @@ gem 'ruby-growl', '~> 4.1.0'
 gem 'liquid', '~> 2.6.1'
 
 gem 'delayed_job', '~> 4.0.0'
-gem 'delayed_job_active_record', '~> 4.0.0'
+gem 'delayed_job_active_record', '~> 4.1.3'
 gem 'daemons', '~> 1.1.9'
 
 # To enable DelayedJobWeb, see the 'Enable DelayedJobWeb' section of the README.
