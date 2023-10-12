@@ -52,7 +52,7 @@ gem 'ace-rails-ap', '~> 2.0.1'
 # geokit-rails doesn't work with geokit 1.8.X but it specifies ~> 1.5
 # in its own Gemfile.
 gem 'geokit', '~> 1.8.4'
-gem 'geokit-rails', '~> 2.0.1'
+gem 'geokit-rails', '~> 2.5.0'
 
 gem 'kramdown', '~> 1.3.3'
 gem 'faraday', '~> 0.9.0'
