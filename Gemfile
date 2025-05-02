@@ -84,7 +84,7 @@ end
 group :development, :test do
   gem 'dotenv-rails'
   gem 'pry'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'rspec'
   gem 'shoulda-matchers'
   gem 'rr'
