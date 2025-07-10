@@ -9,9 +9,9 @@ end
 
 gem 'bundler', '>= 1.5.0'
 
-gem 'protected_attributes', '~>1.0.7'
+gem 'protected_attributes', '~> 1.0.8'
 
-gem 'rails', '4.1.0'
+gem 'rails', '7.1.0'
 
 case RUBY_PLATFORM
 when /freebsd/
@@ -23,9 +23,9 @@ else
 end
 
 gem 'mysql2', '~> 0.3.15'
-gem 'devise', '~> 3.2.4'
-gem 'kaminari', '~> 0.15.1'
-gem 'bootstrap-kaminari-views', '~> 0.0.2'
+gem 'devise', '~> 4.7.0'
+gem 'kaminari', '~> 0.16.0'
+gem 'bootstrap-kaminari-views', '~> 0.0.5'
 gem 'rufus-scheduler', '~> 3.0.7', require: false
 gem 'json', '~> 1.8.1'
 gem 'jsonpath', '~> 0.5.3'
@@ -33,8 +33,8 @@ gem 'twilio-ruby', '~> 3.11.5'
 gem 'ruby-growl', '~> 4.1.0'
 gem 'liquid', '~> 2.6.1'
 
-gem 'delayed_job', '~> 4.0.0'
-gem 'delayed_job_active_record', '~> 4.0.0'
+gem 'delayed_job', '~> 4.1.9'
+gem 'delayed_job_active_record', '~> 4.1.5'
 gem 'daemons', '~> 1.1.9'
 
 # To enable DelayedJobWeb, see the 'Enable DelayedJobWeb' section of the README.
@@ -43,21 +43,21 @@ gem 'daemons', '~> 1.1.9'
 gem 'foreman', '~> 0.63.0'
 
 gem 'sass-rails',   '~> 4.0.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.2.2'
 gem 'uglifier', '>= 1.3.0'
 gem 'select2-rails', '~> 3.5.4'
-gem 'jquery-rails', '~> 3.1.0'
+gem 'jquery-rails', '~> 4.0.1'
 gem 'ace-rails-ap', '~> 2.0.1'
 
 # geokit-rails doesn't work with geokit 1.8.X but it specifies ~> 1.5
 # in its own Gemfile.
 gem 'geokit', '~> 1.8.4'
-gem 'geokit-rails', '~> 2.0.1'
+gem 'geokit-rails', '~> 2.1.0'
 
 gem 'kramdown', '~> 1.3.3'
 gem 'faraday', '~> 0.9.0'
 gem 'faraday_middleware'
-gem 'typhoeus', '~> 0.6.3'
+gem 'typhoeus', '~> 0.6.9'
 gem 'nokogiri', '~> 1.6.1'
 
 gem 'wunderground', '~> 1.2.0'
@@ -66,9 +66,9 @@ gem 'rturk', '~> 2.12.1'
 
 gem 'twitter', '~> 5.8.0'
 gem 'twitter-stream', github: 'cantino/twitter-stream', branch: 'master'
-gem 'em-http-request', '~> 1.1.2'
-gem 'weibo_2', '~> 0.1.4'
-gem 'hipchat', '~> 1.1.0'
+gem 'em-http-request', '~> 1.1.3'
+gem 'weibo_2', '~> 0.1.7'
+gem 'hipchat', '~> 1.2.0'
 gem 'xmpp4r',  '~> 0.5.6'
 gem 'slack-notifier', '~> 0.5.0'
 
@@ -84,9 +84,9 @@ end
 group :development, :test do
   gem 'dotenv-rails'
   gem 'pry'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 2.99.0'
   gem 'rspec'
-  gem 'shoulda-matchers'
+  gem 'shoulda-matchers', '>= 2.6.1'
   gem 'rr'
   gem 'delorean'
   gem 'webmock', require: false
