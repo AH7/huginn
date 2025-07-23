@@ -11,7 +11,7 @@ gem 'bundler', '>= 1.5.0'
 
 gem 'protected_attributes', '~>1.0.7'
 
-gem 'rails', '4.1.0'
+gem 'rails', '4.1.1'
 
 case RUBY_PLATFORM
 when /freebsd/
@@ -23,9 +23,9 @@ else
 end
 
 gem 'mysql2', '~> 0.3.15'
-gem 'devise', '~> 3.2.4'
+gem 'devise', '~> 3.3.0'
 gem 'kaminari', '~> 0.15.1'
-gem 'bootstrap-kaminari-views', '~> 0.0.2'
+gem 'bootstrap-kaminari-views', '~> 0.0.5'
 gem 'rufus-scheduler', '~> 3.0.7', require: false
 gem 'json', '~> 1.8.1'
 gem 'jsonpath', '~> 0.5.3'
@@ -40,25 +40,25 @@ gem 'daemons', '~> 1.1.9'
 # To enable DelayedJobWeb, see the 'Enable DelayedJobWeb' section of the README.
 # gem 'delayed_job_web'
 
-gem 'foreman', '~> 0.63.0'
+gem 'foreman', '~> 0.64.0'
 
-gem 'sass-rails',   '~> 4.0.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 4.0.4'
+gem 'coffee-rails', '~> 4.1.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'select2-rails', '~> 3.5.4'
-gem 'jquery-rails', '~> 3.1.0'
+gem 'select2-rails', '~> 3.5.11'
+gem 'jquery-rails', '~> 3.1.1'
 gem 'ace-rails-ap', '~> 2.0.1'
 
 # geokit-rails doesn't work with geokit 1.8.X but it specifies ~> 1.5
 # in its own Gemfile.
 gem 'geokit', '~> 1.8.4'
-gem 'geokit-rails', '~> 2.0.1'
+gem 'geokit-rails', '~> 2.1.0'
 
 gem 'kramdown', '~> 1.3.3'
 gem 'faraday', '~> 0.9.0'
 gem 'faraday_middleware'
 gem 'typhoeus', '~> 0.6.3'
-gem 'nokogiri', '~> 1.6.1'
+gem 'nokogiri', '~> 1.18.9'
 
 gem 'wunderground', '~> 1.2.0'
 gem 'forecast_io', '~> 2.0.0'
@@ -84,13 +84,13 @@ end
 group :development, :test do
   gem 'dotenv-rails'
   gem 'pry'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 2.99.0'
   gem 'rspec'
   gem 'shoulda-matchers'
   gem 'rr'
   gem 'delorean'
   gem 'webmock', require: false
-  gem 'coveralls', require: false
+  gem 'coveralls', '>= 0.7.1', require: false
 end
 
 group :production do
