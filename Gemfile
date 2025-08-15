@@ -11,7 +11,7 @@ gem 'bundler', '>= 1.5.0'
 
 gem 'protected_attributes', '~>1.0.7'
 
-gem 'rails', '4.1.0'
+gem 'rails', '7.1.5.2'
 
 case RUBY_PLATFORM
 when /freebsd/
@@ -25,7 +25,7 @@ end
 gem 'mysql2', '~> 0.3.15'
 gem 'devise', '~> 3.2.4'
 gem 'kaminari', '~> 0.15.1'
-gem 'bootstrap-kaminari-views', '~> 0.0.2'
+gem 'bootstrap-kaminari-views', '~> 0.0.5'
 gem 'rufus-scheduler', '~> 3.0.7', require: false
 gem 'json', '~> 1.8.1'
 gem 'jsonpath', '~> 0.5.3'
@@ -34,7 +34,7 @@ gem 'ruby-growl', '~> 4.1.0'
 gem 'liquid', '~> 2.6.1'
 
 gem 'delayed_job', '~> 4.0.0'
-gem 'delayed_job_active_record', '~> 4.0.0'
+gem 'delayed_job_active_record', '~> 4.1.7'
 gem 'daemons', '~> 1.1.9'
 
 # To enable DelayedJobWeb, see the 'Enable DelayedJobWeb' section of the README.
@@ -52,7 +52,7 @@ gem 'ace-rails-ap', '~> 2.0.1'
 # geokit-rails doesn't work with geokit 1.8.X but it specifies ~> 1.5
 # in its own Gemfile.
 gem 'geokit', '~> 1.8.4'
-gem 'geokit-rails', '~> 2.0.1'
+gem 'geokit-rails', '~> 2.1.0'
 
 gem 'kramdown', '~> 1.3.3'
 gem 'faraday', '~> 0.9.0'
