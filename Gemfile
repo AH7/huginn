@@ -11,7 +11,7 @@ gem 'bundler', '>= 1.5.0'
 
 gem 'protected_attributes', '~>1.0.7'
 
-gem 'rails', '4.1.0'
+gem 'rails', '5.0.0'
 
 case RUBY_PLATFORM
 when /freebsd/
@@ -23,9 +23,9 @@ else
 end
 
 gem 'mysql2', '~> 0.3.15'
-gem 'devise', '~> 3.2.4'
-gem 'kaminari', '~> 0.15.1'
-gem 'bootstrap-kaminari-views', '~> 0.0.2'
+gem 'devise', '~> 4.0.0'
+gem 'kaminari', '~> 0.16.0'
+gem 'bootstrap-kaminari-views', '~> 0.0.5'
 gem 'rufus-scheduler', '~> 3.0.7', require: false
 gem 'json', '~> 1.8.1'
 gem 'jsonpath', '~> 0.5.3'
@@ -42,17 +42,17 @@ gem 'daemons', '~> 1.1.9'
 
 gem 'foreman', '~> 0.63.0'
 
-gem 'sass-rails',   '~> 4.0.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 5.0.5'
+gem 'coffee-rails', '~> 4.1.1'
 gem 'uglifier', '>= 1.3.0'
 gem 'select2-rails', '~> 3.5.4'
-gem 'jquery-rails', '~> 3.1.0'
+gem 'jquery-rails', '~> 4.0.1'
 gem 'ace-rails-ap', '~> 2.0.1'
 
 # geokit-rails doesn't work with geokit 1.8.X but it specifies ~> 1.5
 # in its own Gemfile.
 gem 'geokit', '~> 1.8.4'
-gem 'geokit-rails', '~> 2.0.1'
+gem 'geokit-rails', '~> 2.1.0'
 
 gem 'kramdown', '~> 1.3.3'
 gem 'faraday', '~> 0.9.0'
@@ -64,9 +64,9 @@ gem 'wunderground', '~> 1.2.0'
 gem 'forecast_io', '~> 2.0.0'
 gem 'rturk', '~> 2.12.1'
 
-gem 'twitter', '~> 5.8.0'
+gem 'twitter', '~> 5.9.0'
 gem 'twitter-stream', github: 'cantino/twitter-stream', branch: 'master'
-gem 'em-http-request', '~> 1.1.2'
+gem 'em-http-request', '~> 1.1.3'
 gem 'weibo_2', '~> 0.1.4'
 gem 'hipchat', '~> 1.1.0'
 gem 'xmpp4r',  '~> 0.5.6'
@@ -84,16 +84,16 @@ end
 group :development, :test do
   gem 'dotenv-rails'
   gem 'pry'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 2.99.0'
   gem 'rspec'
   gem 'shoulda-matchers'
   gem 'rr'
   gem 'delorean'
-  gem 'webmock', require: false
+  gem 'webmock', '>= 1.18.0', require: false
   gem 'coveralls', require: false
 end
 
 group :production do
   gem 'dotenv-deployment'
-  gem 'rack'
+  gem 'rack', '>= 2.2.23'
 end
