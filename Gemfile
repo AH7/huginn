@@ -56,7 +56,7 @@ gem 'geokit-rails', '~> 2.0.1'
 
 gem 'kramdown', '~> 1.3.3'
 gem 'faraday', '~> 0.9.0'
-gem 'faraday_middleware'
+gem 'faraday_middleware', '>= 1.0.0'
 gem 'typhoeus', '~> 0.6.3'
 gem 'nokogiri', '~> 1.6.1'
 
